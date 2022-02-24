@@ -1,0 +1,11 @@
+@import 'common/var.scss';
+.pw-field {
+    font-size: $--font-size-medium;
+    outline: none;
+    border: 0;
+    color: $--color-primary;
+    background-color: transparent;
+    &::placeholder {
+        color: $--color-text-placeholder;
+    }
+}
